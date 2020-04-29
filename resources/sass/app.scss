@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "./fontawesome";
+
+// modules
+@import "./modules/icon";
+
+// layouts
+@import './layouts/header';
+
+// components
+@import './components/post/block';
+
+// pages
+@import './pages/user/show';
+
+:root {
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #fafafa;
+  color: #262626;
+  padding-bottom: 3rem;
+}
+
+.container {
+  max-width: 50%;
+  // max-width: 93.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+p {
+  margin-bottom: 0px;
+}
+
