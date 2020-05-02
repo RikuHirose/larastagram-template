@@ -25,6 +25,14 @@
     padding:0px 10px;
     justify-content:space-between;
 
+    .name {
+      a {
+        display: contents;
+        text-decoration: none;
+        color: black;
+      }
+    }
+
     &-image {
       img {
         width: 100%;
@@ -60,6 +68,10 @@
     align-items: center;
     img {
       width: 5%;
+    }
+    form {
+      padding: 0;
+      display: inline;
     }
   }
   .likes *{

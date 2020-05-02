@@ -3,7 +3,8 @@
 @section('content')
   <div class="p-user-show">
 
-        <div class="profile">
+    <div class="c-user-profile">
+      <div class="profile">
 
           <div class="profile-image">
 
@@ -15,7 +16,7 @@
 
             <h1 class="profile-user-name">janedoe_</h1>
 
-            <button class="btn profile-edit-btn">Edit Profile</button>
+            <button class="profile-edit-btn">Edit Profile</button>
 
             <button aria-label="profile settings" class="btn profile-settings-btn" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
               <i class="fas fa-cog"></i>
@@ -51,10 +52,12 @@
 
           </div>
 
-        </div>
-        <!-- End of profile section -->
+      </div>
+    </div>
+    <!-- End of profile section -->
 
-        <div class="gallery">
+    <div class="c-post-gallery">
+      <div class="gallery">
 
           <div class="gallery-item" tabindex="0">
 
@@ -272,7 +275,8 @@
 
           </div>
 
-        </div>
-        <!-- End of gallery -->
+      </div>
+    </div>
+      <!-- End of gallery -->
   </div>
 @endsection

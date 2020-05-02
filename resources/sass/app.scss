@@ -11,15 +11,19 @@
 
 // modules
 @import "./modules/icon";
+@import "./modules/button";
 
 // layouts
 @import './layouts/header';
 
 // components
 @import './components/post/block';
+@import './components/post/gallery';
+@import './components/user/profile';
 
 // pages
 @import './pages/user/show';
+@import './pages/follow/index';
 
 :root {
   font-size: 10px;
@@ -58,7 +62,16 @@ body {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-p {
+p, span {
   margin-bottom: 0px;
+  font-size: 12px;
+}
+
+input::placeholder {
+  font-size: 12px;
+}
+
+textarea::placeholder {
+  font-size: 12px;
 }
 
