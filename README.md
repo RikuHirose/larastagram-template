@@ -1,4 +1,4 @@
-# Shunta Web App
+# larastagram-template
 
 ## Descriptions
 

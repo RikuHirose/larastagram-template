@@ -3,6 +3,7 @@
 @section('content')
     <div class="p-index">
 
+        <!-- c-post-blockで投稿をハードコードしているので不要なc-post-blockを削除し、c-post-blockをforeachする -->
         <div class="c-post-block">
             <div class="post">
               <div class="name">
